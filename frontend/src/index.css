@@ -1,0 +1,54 @@
+/* Google Fonts — must precede all @tailwind directives */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Noto Sans', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  /* Language-specific fonts applied by body class (see i18n.ts) */
+  body.font-tamil { font-family: 'Noto Sans Tamil', 'Noto Sans', sans-serif; }
+  body.font-hindi { font-family: 'Noto Sans Devanagari', 'Noto Sans', sans-serif; }
+  body.font-telugu { font-family: 'Noto Sans Telugu', 'Noto Sans', sans-serif; }
+  body.font-malayalam { font-family: 'Noto Sans Malayalam', 'Noto Sans', sans-serif; }
+  body.font-sans { font-family: 'Noto Sans', system-ui, sans-serif; }
+
+  /* Minimum 44px touch targets */
+  button,
+  [role="button"],
+  select {
+    min-height: 44px;
+  }
+
+  /* Visible focus rings for keyboard accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-600 ring-offset-2;
+  }
+
+  /* Respect prefers-reduced-motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

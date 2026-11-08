@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "anaemia": "Understanding Anaemia",
+    "approach": "Our Approach",
+    "products": "Products",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up",
+    "dashboard": "Dashboard",
+    "myProfile": "My Profile",
+    "generate": "Generate Product",
+    "cartAndOrders": "Cart & Orders",
+    "history": "History",
+    "trackProgress": "Track Progress",
+    "anaemiaInfo": "Anaemia Information",
+    "assistant": "NutriAI Assistant",
+    "settings": "Settings",
+    "admin": "Admin Portal",
+    "logout": "Log Out"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "view": "View",
+    "submit": "Submit",
+    "success": "Success",
+    "error": "Error",
+    "status": "Status",
+    "prototypeBadge": "Prototype product – demo checkout",
+    "demoDataBanner": "Demo nutrient data – not validated",
+    "translationUnderReview": "Translation under review",
+    "notInDatabase": "not in database",
+    "servings": "servings",
+    "perServing": "per serving"
+  },
+  "safety": {
+    "disclaimer": "NutriAI provides food-based dietary formulation recommendations designed to support nutritional intake. It does not replace medical advice, diagnosis, or clinical treatment. Changes in lab parameters must not be attributed solely to NutriAI products and should be evaluated by a healthcare professional.",
+    "ageOutOfScope": "NutriAI formulation models are validated exclusively for adolescent girls and women of reproductive age (10–49 years).",
+    "severeWarning": "Your haemoglobin value is critically outside typical reference ranges. Immediate medical consultation with a physician is required before using dietary products.",
+    "moderateReferral": "Your blood test reflects values outside standard reference ranges that a healthcare provider should review.",
+    "pregnancyAdvisory": "Pregnancy or lactation requires personalized obstetric evaluation. Food products serve strictly as supplementary nutritional support.",
+    "nonIronPattern": "Your test values show microcytic indices with normal or high ferritin stores. This suggests possible non-iron related factors (such as thalassaemia trait). High-dose iron supplementation is not advised without medical evaluation."
+  },
+  "home": {
+    "heroTitle": "Personalized Nutrition. Smarter Food. A Healthier Future.",
+    "heroSubtitle": "Discover personalized, nutrient-dense food recommendations designed around your nutritional needs, dietary preferences and lifestyle.",
+    "getStarted": "Get Started",
+    "exploreApproach": "Explore Our Approach",
+    "aboutTitle": "About NutriAI",
+    "aboutText": "Developed under the ICMR–Gates Foundation Grand Challenge framework, NutriAI leverages clinical safety gates and mathematical linear programming to create aspirational, affordable, culturally familiar food products tailored for adolescent girls and women of reproductive age across India.",
+    "statisticsTitle": "Epidemiological Context in India",
+    "statisticsSubtitle": "Key indicators from the National Family Health Survey (NFHS-5). Only verified survey statistics are displayed.",
+    "statisticsPending": "Additional survey statistics are currently pending official clinical verification.",
+    "solutionTitle": "Our Scientific Formulation Pipeline",
+    "productCategoriesTitle": "Aspirational Product Formats",
+    "productCategoriesSubtitle": "Nutrient-dense, non-medicinal daily foods engineered to deliver 4–5 mg bioavailable iron per serving.",
+    "howItWorksTitle": "How It Works"
+  },
+  "auth": {
+    "loginTitle": "Welcome Back to NutriAI",
+    "loginSubtitle": "Sign in to access your nutritional assessments and prototype products",
+    "registerTitle": "Create Your NutriAI Account",
+    "registerSubtitle": "Personalized food product recommendations for adolescent girls & women",
+    "email": "Email Address",
+    "password": "Password",
+    "fullName": "Full Name",
+    "dob": "Date of Birth",
+    "language": "Preferred Language",
+    "guardianTitle": "Parent / Guardian Consent Required",
+    "guardianNotice": "Because you are under 18 years of age, Indian data protection guidelines require verified parental or guardian consent.",
+    "guardianName": "Parent / Guardian Full Name",
+    "guardianRelation": "Relationship (e.g. Mother, Father)",
+    "guardianContact": "Guardian Phone / Email",
+    "guardianCheckbox": "I grant consent for NutriAI to process nutritional information for anaemia prevention support.",
+    "devAccountsTitle": "Quick Dev Mode Login (Test Accounts)",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account? Sign Up",
+    "hasAccount": "Already have an account? Log In"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "profileCompletion": "Profile Completion",
+    "latestAssessment": "Latest Nutritional Assessment",
+    "currentProduct": "Current Consumption Plan",
+    "quickActions": "Quick Actions",
+    "uploadReport": "Upload New Lab Report",
+    "generateFormulation": "Generate New Formulation",
+    "trackIntake": "Log Daily Serving",
+    "recentActivity": "Recent Activity"
+  },
+  "profile": {
+    "personalTab": "Personal Details",
+    "physicalTab": "Physical Measurements",
+    "dietTab": "Dietary Preferences",
+    "allergiesTab": "Allergens & Restrictions",
+    "healthTab": "Health & Medical Info",
+    "height": "Height (cm)",
+    "weight": "Weight (kg)",
+    "bmi": "Body Mass Index (BMI)",
+    "addMeasurement": "Log New Measurement",
+    "dietType": "Dietary Pattern",
+    "allergensNotice": "Allergens are enforced as hard mathematical constraints in all formulation calculations.",
+    "healthNotice": "All clinical health disclosures are protected using AES-256-GCM column-level encryption."
+  },
+  "generate": {
+    "step1": "1. Upload Report",
+    "step2": "2. Review & Verify",
+    "step3": "3. Confirm Context",
+    "step4": "4. Assessment",
+    "step5": "5. Optimize & Formulate",
+    "dropzoneTitle": "Upload Laboratory Blood Examination Report",
+    "dropzoneSubtitle": "Accepts PDF, JPEG, or PNG (up to 10 MB)",
+    "needsReviewWarning": "Highlighted rows require your verification or correction before continuing.",
+    "confirmButton": "Run Deterministic Assessment",
+    "generatingTitle": "Optimizing Formulations...",
+    "generatingSubtitle": "Evaluating ingredient candidates, linear programming constraints, and bioavailability indices."
+  },
+  "results": {
+    "whySelected": "Why This Product Was Formulated For You",
+    "howCalculated": "How was this calculated?",
+    "ingredientsBreakdown": "Optimized Ingredient Breakdown",
+    "nutritionTable": "Computed Nutrition Table (per serving)",
+    "instructions": "Preparation & Storage Guidance",
+    "costBreakdown": "Affordability & Cost Analysis",
+    "addToCart": "Add Prototype to Cart",
+    "saveProduct": "Save Product",
+    "compare": "Compare Candidates",
+    "downloadPdf": "Download Nutritional Report (PDF)",
+    "askNutriAI": "Ask NutriAI Assistant"
+  },
+  "shop": {
+    "catalogTitle": "Prototype Product Catalog",
+    "catalogSubtitle": "AI-optimized, nutrient-dense prototype food products for anaemia prevention.",
+    "viewDetails": "View Formulation Details"
+  },
+  "cart": {
+    "title": "Your Prototype Shopping Cart",
+    "empty": "Your cart is currently empty.",
+    "checkout": "Proceed to Demo Sandbox Checkout",
+    "subtotal": "Subtotal",
+    "delivery": "Delivery Fee",
+    "total": "Total Amount"
+  },
+  "orders": {
+    "title": "Orders & Prototype Shipments",
+    "orderNumber": "Order Number",
+    "timeline": "Order Lifecycle Timeline",
+    "statusConfirmed": "Confirmed (Sandbox Demo)",
+    "statusProcessing": "Processing Batch",
+    "statusShipped": "Shipped",
+    "statusDelivered": "Delivered"
+  },
+  "progress": {
+    "title": "Daily Adherence & Progress Tracking",
+    "logToday": "I Had My Serving Today",
+    "weeklyAdherence": "Weekly Adherence",
+    "remainingServings": "Remaining Servings",
+    "projectedEnd": "Projected Completion",
+    "labComparisonTitle": "Laboratory Trend Comparison (Confirmed Reports)"
+  },
+  "learn": {
+    "title": "Anaemia Education & Nutritional Science",
+    "subtitle": "Clear, evidence-grounded nutritional guidance reviewed against ICMR-NIN standards."
+  },
+  "chat": {
+    "title": "NutriAI Voice & Chat Assistant",
+    "inputPlaceholder": "Ask a question in your preferred language...",
+    "micTooltip": "Voice Input (Speech-to-Text)",
+    "reviewTranscript": "Review your spoken query before sending:"
+  },
+  "settings": {
+    "title": "Account & Privacy Settings",
+    "language": "Display Language",
+    "consents": "Data & Health Consents",
+    "export": "Export My Data (JSON)",
+    "deleteAccount": "Delete My Account"
+  },
+  "admin": {
+    "title": "NutriAI Clinical & Content Administration",
+    "ingredients": "Ingredient Assays",
+    "statistics": "Verify Survey Statistics",
+    "orders": "Order Logistics",
+    "audit": "Security Audit Trail"
+  }
+}
+

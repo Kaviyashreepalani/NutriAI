@@ -1,0 +1,49 @@
+[project]
+name = "nutriai-backend"
+version = "0.1.0"
+description = "NutriAI Backend - AI-Optimized Aspirational Nutrient-Dense Food Products for Anaemia Prevention"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+    "sqlalchemy>=2.0.30",
+    "alembic>=1.13.1",
+    "asyncpg>=0.29.0",
+    "psycopg2-binary>=2.9.9",
+    "scipy>=1.13.0",
+    "pymupdf>=1.24.0",
+    "pdfplumber>=0.11.0",
+    "rapidfuzz>=3.9.0",
+    "boto3>=1.34.0",
+    "cryptography>=42.0.0",
+    "pyjwt>=2.8.0",
+    "reportlab>=4.2.0",
+    "httpx>=0.27.0",
+    "python-multipart>=0.0.9",
+    "email-validator>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.4.0",
+    "mypy>=1.10.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+
